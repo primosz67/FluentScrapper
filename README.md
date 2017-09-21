@@ -2,7 +2,7 @@
 Basically web crawler!
 
 
-###How To  use###
+### How To use ###
 
 ```java
   FluentScrapper.<String>of("https://site.com")
@@ -17,9 +17,8 @@ Basically web crawler!
 ```
 
 
-###How I use###
+### How I use ###
 Use for getting emails or phones. :D
-
 
 ###Install###
 Well if you need that give me an info. I will publish it to the mvn repo. 
