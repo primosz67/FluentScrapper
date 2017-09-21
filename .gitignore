@@ -1,8 +1,9 @@
-	.gradle/
-	.idea/
-	build/
-	contentFetcher.iml
-	gradle/
-	gradlew
-	gradlew.bat
-	out/
+.gradle/
+.idea/
+build/
+contentFetcher.iml
+gradle/
+gradlew
+gradlew.bat
+out/
+src/main/java/site
