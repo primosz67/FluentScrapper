@@ -15,4 +15,8 @@ public class DataStores {
     public static <T> DataStore<T> printCsv(final PrintStream out, Converter<T, List<String>> converter) {
         return new CsvToStreamStore<>(out, ",", converter);
     }
+
+    public static <T> DataStore<T> printToStream(final PrintStream out) {
+        return new PrintToStringStore<>(out);
+    }
 }

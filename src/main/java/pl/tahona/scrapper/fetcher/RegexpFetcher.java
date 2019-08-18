@@ -1,4 +1,4 @@
-package pl.tahona.scrapper.crawler;
+package pl.tahona.scrapper.fetcher;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.nodes.Document;

@@ -19,6 +19,7 @@ class SoupHelper {
 
             return Jsoup.connect(url)
                     .userAgent("Mozzila")
+                    .ignoreContentType(true)
                     .timeout(5000)
                     .get();
         } catch (final Exception e) {

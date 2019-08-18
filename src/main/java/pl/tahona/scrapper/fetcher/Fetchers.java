@@ -1,10 +1,8 @@
-package pl.tahona.scrapper.crawler;
+package pl.tahona.scrapper.fetcher;
 
-import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 
 import java.util.List;
-import java.util.Set;
 
 public final class Fetchers {
 
